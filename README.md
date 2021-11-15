@@ -1,70 +1,41 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Riders](https://bicycle-riders-store.web.app/).
 
-## Available Scripts
+## Available Features
 
 In the project directory, you can run:
 
-### `yarn start`
+### `projects purpose`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The bicycle was invented all the way back in 1817.\
+A certain Baron Karl von Drais needed to get around easier while working in the Royal Gardens and came up with the idea of sitting on a platform with two wheels and propelling himself with his feet.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Runs the web app is in the development mode.\
+Open [https://bicycle-riders-store.web.app/](https://bicycle-riders-store.web.app/) to view it in the browser.
 
-### `yarn test`
+### `projects history`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The first verifiable claim for a practically used bicycle belongs to German Baron Karl von Drais,\
+a civil servant to the Grand Duke of Baden in Germany. Drais invented his Laufmaschine (German for "running machine") in 1817, that was called Draisine (English) or draisienne (French) by the press.
 
-### `yarn build`
+See the section about [codes-client-side](https://github.com/programming-hero-web-course-4/niche-website-client-side-akash-7313) for more information.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `projects details`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A bicycle (or bike) is a small, human powered land vehicle with a seat,\
+two wheels, two pedals, and a metal chain connected to cogs on the pedals and rear wheel... Riding bicycles, which is also called cycling, is an important way to travel in several parts of the world.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See the section about [codes-server-side](https://github.com/programming-hero-web-course-4/niche-website-server-side-akash-7313) for more information.
 
-### `yarn eject`
+### `special features`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+If buying an assembled bicycle, make sure that it has mandatory safety features such as protective guards, reflectors, brakes and a warning device.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `user's experience`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Open [https://bicycle-riders-store.web.app/](https://bicycle-riders-store.web.app/) to view it in the browser.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The obvious answer is cycling boosts your mood in the same way all physical exercise makes you happy\
+“by influencing the release and uptake of chemicals in your brain that make you feel good” according to the Mental Health Foundation UK.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
