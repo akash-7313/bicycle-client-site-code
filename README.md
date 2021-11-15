@@ -30,6 +30,8 @@ See the section about [codes-server-side](https://github.com/programming-hero-we
 
 ### `special features`
 
+Open [https://bicycle-riders-store.web.app/](https://bicycle-riders-store.web.app/) to view it in the browser.
+
 If buying an assembled bicycle, make sure that it has mandatory safety features such as protective guards, reflectors, brakes and a warning device.
 
 ### `user's experience`
