@@ -47,7 +47,7 @@ const ShowReview = () => {
                   </Card.Text>
                   <Card.Text>
                     <small className="text-muted">
-                      Rating: {review?.review?.slice(0, 50)}...
+                      {review?.review?.slice(0, 50)}...
                     </small>
                   </Card.Text>
                 </Card.Body>
