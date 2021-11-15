@@ -7,7 +7,7 @@ import blogImgThree from "../../../images/blogs/blogthree.jpg";
 const Blogs = () => {
   return (
     <div className="container mt-5">
-      <div className="pt-5 text-center">
+      <div className="text-center">
         <h2 className="text-secondary">Our riding blogs </h2>
         <p className="text-muted">
           Bicycle is one of the best vehicles in the replace for <br /> its

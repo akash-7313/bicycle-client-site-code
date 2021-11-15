@@ -27,7 +27,7 @@ const ManageProducts = () => {
 
   // delete order
   const handleDeleteOrder = (id) => {
-    const proceed = window.confirm("Are you sure, you want to delete order?");
+    const proceed = window.confirm("Are you sure, you want to delete product?");
     if (proceed) {
       const url = `https://peaceful-hollows-85818.herokuapp.com/product/${id}`;
       fetch(url, {
@@ -36,7 +36,7 @@ const ManageProducts = () => {
         .then((res) => res.json())
         .then((result) => {
           if (result.deletedCount > 0) {
-            alert("order deleted successfully");
+            alert("product deleted successfully");
             const remainingOrders = collection.filter(
               (pd) => pd._id !== id
             );

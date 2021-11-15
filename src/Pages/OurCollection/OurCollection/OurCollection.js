@@ -27,7 +27,7 @@ const OurCollection = () => {
 
   return (
     <div className="container my-5">
-      <div className="pt-5 text-center">
+      <div className="text-center">
         <h2 className="text-secondary border-bottom border-1 border-primary w-25 mx-auto">
           Our Featured Products
         </h2>

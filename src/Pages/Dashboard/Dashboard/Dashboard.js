@@ -43,13 +43,13 @@ const Dashboard = () => {
               </NavLink>
             </h2>
             <ul className="nav">
+              <li>
+                <NavLink to="/" className="dashboard-link">
+                  <i className="fas fa-home"></i> Home
+                </NavLink>
+              </li>
               {!isAdmin && (
                 <div>
-                  <li>
-                    <NavLink to="/" className="dashboard-link">
-                      <i className="fas fa-home"></i> Home
-                    </NavLink>
-                  </li>
                   <li>
                     <NavLink to="/collection" className="dashboard-link">
                       <i className="fas fa-biking"></i> Buy New Products

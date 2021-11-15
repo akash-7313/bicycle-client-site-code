@@ -62,7 +62,7 @@ const ManageAllOrder = () => {
       .then((result) => {
         // console.log(result);
         if (result.modifiedCount > 0) {
-          alert("Order Approved Successfully");
+          alert("Order Shipped Successfully");
         }
       });
   };
@@ -81,8 +81,8 @@ const ManageAllOrder = () => {
           <tr>
             <th>#</th>
             <th>Bicycle</th>
-            <th>Cost</th>
-            <th>Tourist</th>
+            <th>Price</th>
+            <th>Buyer</th>
             <th>Address</th>
             <th>Phone</th>
             <th>Status</th>
