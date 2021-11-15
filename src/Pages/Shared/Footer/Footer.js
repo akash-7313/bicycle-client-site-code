@@ -13,6 +13,9 @@ const Footer = () => {
     marginRight: "10px",
     cursor: "pointer",
   };
+  const cursorStyle = {
+    cursor: "pointer",
+  };
 
   return (
     <div className="mt-5" style={footerOverflow}>
@@ -72,15 +75,15 @@ const Footer = () => {
               </Card.Text>
               <Card.Text className="mt-5 text-danger">
                 <small>FOLLOW US ON:</small>
-                <i className="fab fa-twitter ms-2"></i>
-                <i className="fab fa-facebook-f ms-2"></i>
-                <i className="fab fa-instagram ms-2"></i>
+                <i className="fab fa-twitter ms-2" style={cursorStyle}></i>
+                <i className="fab fa-facebook-f ms-2" style={cursorStyle}></i>
+                <i className="fab fa-instagram ms-2" style={cursorStyle}></i>
               </Card.Text>
               <Card.Text>
-                <small className="me-3 fw-bold">CONTACT</small>
-                <small className="me-3 fw-bold">FAQS</small>
-                <small className="me-3 fw-bold">PRIVACY</small>
-                <small className="me-0 fw-bold">TERMS & CONDITION</small>
+                <small className="me-3 fw-bold" style={cursorStyle}>CONTACT</small>
+                <small className="me-3 fw-bold" style={cursorStyle}>FAQS</small>
+                <small className="me-3 fw-bold" style={cursorStyle}>PRIVACY</small>
+                <small className="me-0 fw-bold" style={cursorStyle}>TERMS & CONDITION</small>
               </Card.Text>
             </Card.Body>
           </Col>

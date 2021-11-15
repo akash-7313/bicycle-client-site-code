@@ -17,7 +17,7 @@ const PlaceOrder = () => {
   } = useForm();
 
   useEffect(() => {
-    const url = `http://localhost:5000/allProducts/${productId}`;
+    const url = `https://peaceful-hollows-85818.herokuapp.com/allProducts/${productId}`;
     fetch(url)
       .then((res) => res.json())
       .then((result) => setSingleProduct(result));
@@ -28,7 +28,7 @@ const PlaceOrder = () => {
     data.status = "pending";
     console.log(data);
 
-    fetch("http://localhost:5000/orders", {
+    fetch("https://peaceful-hollows-85818.herokuapp.com/orders", {
       method: "POST",
       headers: {
         "content-type": "application/json",

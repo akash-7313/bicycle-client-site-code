@@ -8,7 +8,7 @@ const ManageProducts = () => {
 
   useEffect(() => {
     setIsLoadingData(true);
-    fetch("http://localhost:5000/allProducts")
+    fetch("https://peaceful-hollows-85818.herokuapp.com/allProducts")
       .then((res) => res.json())
       .then((data) => {
         // console.log(data);
@@ -29,7 +29,7 @@ const ManageProducts = () => {
   const handleDeleteOrder = (id) => {
     const proceed = window.confirm("Are you sure, you want to delete order?");
     if (proceed) {
-      const url = `http://localhost:5000/product/${id}`;
+      const url = `https://peaceful-hollows-85818.herokuapp.com/product/${id}`;
       fetch(url, {
         method: "DELETE",
       })
@@ -51,7 +51,7 @@ const ManageProducts = () => {
       <h2 className="mt-3 text-center">All products details</h2>
       <Row xs={2} md={4} className="g-4 pt-4 px-3">
         {collection.map((product, index) => (
-          <Col className="p-2">
+          <Col key={product?._id} className="p-2">
             <Card className="shadow h-100 border-0">
               <Card.Img
                 className="img-fluid p-3"
@@ -93,6 +93,3 @@ const ManageProducts = () => {
 };
 
 export default ManageProducts;
-
-
-// {"_id":{"$oid":"6190f8acc5a524289b397653"},"bicycleName":"Lemond cycles","img":"https://i.postimg.cc/sDYG0905/twelve.jpg","description":"Although Trek might be the most recognizable name the company produces, it has a full line up of brands in its stable. Those other brands include DreamBikes, Bontrager and Electra. Until 2008, the company also produced LeMond cycles, aline of bikes initially developed by Greg LeMond, a US cyclist who won the Tour de France.","price":"180"}

@@ -17,7 +17,7 @@ const Review = () => {
   const onSubmit = (data) => {
     console.log(data);
 
-    fetch("http://localhost:5000/addReview", {
+    fetch("https://peaceful-hollows-85818.herokuapp.com/addReview", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),

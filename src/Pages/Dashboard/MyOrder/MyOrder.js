@@ -14,7 +14,7 @@ const MyOrder = () => {
   };
 
   useEffect(() => {
-    fetch(`http://localhost:5000/myOrders/${email}`)
+    fetch(`https://peaceful-hollows-85818.herokuapp.com/myOrders/${email}`)
       .then((res) => res.json())
       .then((result) => setOrders(result));
   }, [email]);
@@ -23,7 +23,7 @@ const MyOrder = () => {
   const handleDeleteOrder = (id) => {
     const proceed = window.confirm("Are you sure, you want to delete order?");
     if (proceed) {
-      const url = `http://localhost:5000/myOrders/${id}`;
+      const url = `https://peaceful-hollows-85818.herokuapp.com/myOrders/${id}`;
       fetch(url, {
         method: "DELETE",
       })

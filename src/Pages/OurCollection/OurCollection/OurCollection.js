@@ -8,7 +8,7 @@ const OurCollection = () => {
 
   useEffect(() => {
     setIsLoadingData(true);
-    fetch("http://localhost:5000/allProducts")
+    fetch("https://peaceful-hollows-85818.herokuapp.com/allProducts")
       .then((res) => res.json())
       .then((data) => {
         // console.log(data);

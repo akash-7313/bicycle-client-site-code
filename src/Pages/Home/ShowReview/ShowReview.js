@@ -8,7 +8,7 @@ const ShowReview = () => {
 
     useEffect(() => {
       setIsLoadingData(true);
-      fetch("http://localhost:5000/review")
+      fetch("https://peaceful-hollows-85818.herokuapp.com/review")
         .then((res) => res.json())
         .then((result) => {
           setIsLoadingData(false);
@@ -28,7 +28,7 @@ const ShowReview = () => {
         <h2 className="mt-3 text-center">Our happy client says</h2>
         <Row xs={1} md={4} className="g-4 pt-4 px-3">
           {reviews.map((review, index) => (
-            <Col className="p-2">
+            <Col key={review?._id} className="p-2">
               <Card className="shadow h-100 border-0">
                 <Card.Img
                   className="img-fluid p-3"

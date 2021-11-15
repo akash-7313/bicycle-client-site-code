@@ -11,7 +11,7 @@ const ManageAllOrder = () => {
 
   useEffect(() => {
     setIsLoadingData(true);
-    fetch("http://localhost:5000/allOrders")
+    fetch("https://peaceful-hollows-85818.herokuapp.com/allOrders")
       .then((res) => res.json())
       .then((result) => {
         setIsLoadingData(false);
@@ -31,7 +31,7 @@ const ManageAllOrder = () => {
   const handleDeleteOrder = (id) => {
     const proceed = window.confirm("Are you sure, you want to delete order?");
     if (proceed) {
-      const url = `http://localhost:5000/myOrders/${id}`;
+      const url = `https://peaceful-hollows-85818.herokuapp.com/myOrders/${id}`;
       fetch(url, {
         method: "DELETE",
       })
@@ -53,7 +53,7 @@ const ManageAllOrder = () => {
     data.status = "shipped";
     // console.log(data);
 
-    fetch(`http://localhost:5000/update/${id}`, {
+    fetch(`https://peaceful-hollows-85818.herokuapp.com/update/${id}`, {
       method: "PUT",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),

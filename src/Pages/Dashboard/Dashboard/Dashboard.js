@@ -18,7 +18,7 @@ const Dashboard = () => {
   const [isAdmin, setiSAdmin] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:5000/admin")
+    fetch("https://peaceful-hollows-85818.herokuapp.com/admin")
       .then((res) => res.json())
       .then((result) => {
         for (let i = 0; i < result.length; i++) {
