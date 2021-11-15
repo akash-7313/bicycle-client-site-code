@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Riders
 
 This project was bootstrapped with [Riders](https://bicycle-riders-store.web.app/).
 
