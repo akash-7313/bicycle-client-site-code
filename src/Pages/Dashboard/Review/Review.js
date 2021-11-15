@@ -73,7 +73,7 @@ const Review = () => {
           <br />
           <input
             className="p-2 m-2 w-50 mx-auto"
-            type="number"
+            type="text"
             {...register("rating", { required: true })}
             required
             placeholder="rating"
