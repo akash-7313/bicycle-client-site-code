@@ -63,7 +63,8 @@ const PlaceOrder = () => {
                 Tour Cost: ${singleProduct?.price}k
               </Card.Text>
               <Card.Text className="text-dark">
-                Rating: 4.5 , Rated by: 6.5k riders
+                Rating: <b className="text-primary">4.5</b> , Rated by:{" "}
+                <b className="text-primary">6.5k</b> riders
               </Card.Text>
               <Card.Text className="text-muted">
                 {singleProduct?.description}
