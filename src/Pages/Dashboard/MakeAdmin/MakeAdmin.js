@@ -47,24 +47,28 @@ const MakeAdmin = () => {
       )}
       <form onSubmit={handleNewAdmin}>
         <input
-          className="w-50"
+          className="w-50 ps-2 mt-3 form-control mx-auto"
           label="Email"
           type="email"
           onBlur={handleEmail}
           variant="secondary"
+          placeholder="Email"
+          required
         />{" "}
         <br />
         <input
-          className="mt-3 w-50"
+          className="w-50 form-control mx-auto"
           label="password"
           type="password"
+          placeholder="Password"
           onBlur={handlePassword}
           variant="secondary"
+          required
         />{" "}
         <br />
         <Button
           type="submit"
-          className="mt-3 w-50"
+          className="mt-1 w-50"
           variant="secondary"
           size="sm"
         >
