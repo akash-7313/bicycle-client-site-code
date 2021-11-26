@@ -1,43 +1,30 @@
 # Riders
 
-This project was bootstrapped with [Riders](https://bicycle-riders-store.web.app/).
+[Riders](https://bicycle-riders-store.web.app/).
 
 ## Available Features
 
-In the project directory, you can run:
-
 ### `projects purpose`
 
-The bicycle was invented all the way back in 1817.\
-A certain Baron Karl von Drais needed to get around easier while working in the Royal Gardens and came up with the idea of sitting on a platform with two wheels and propelling himself with his feet.
-
-Runs the web app is in the development mode.\
+Rider's is a by-cycle selling website with the purpose of fulfill the expectation of rider's with the best bi-cycle in a minimum price.\
 Open [https://bicycle-riders-store.web.app/](https://bicycle-riders-store.web.app/) to view it in the browser.
 
-### `projects history`
+### `projects client site`
 
-The first verifiable claim for a practically used bicycle belongs to German Baron Karl von Drais,\
-a civil servant to the Grand Duke of Baden in Germany. Drais invented his Laufmaschine (German for "running machine") in 1817, that was called Draisine (English) or draisienne (French) by the press.
+In server side in this projects I use reactjs (a js library) with react router. React router help in make a SPA application with multipage user experience. Firebase auth system provide google & email-password authentication.
 
 See the section about [codes-client-side](https://github.com/programming-hero-web-course-4/niche-website-client-side-akash-7313) for more information.
 
-### `projects details`
+### `projects server site`
 
-A bicycle (or bike) is a small, human powered land vehicle with a seat,\
-two wheels, two pedals, and a metal chain connected to cogs on the pedals and rear wheel... Riding bicycles, which is also called cycling, is an important way to travel in several parts of the world.
+In server side in this projects I use nodejs with expressjs (a nodejs framework) to integrate with mongoDb database. MongoDB performs 100 times faster than other relational databases and provides high performance.
 
 See the section about [codes-server-side](https://github.com/programming-hero-web-course-4/niche-website-server-side-akash-7313) for more information.
 
 ### `special features`
 
-Open [https://bicycle-riders-store.web.app/](https://bicycle-riders-store.web.app/) to view it in the browser.
-
-If buying an assembled bicycle, make sure that it has mandatory safety features such as protective guards, reflectors, brakes and a warning device.
+The admin have acces to manage user's order info, he can add new products & many more real world site features. A user can manage his order information & he/she can delete his/her order info anytime.
 
 ### `user's experience`
 
-Open [https://bicycle-riders-store.web.app/](https://bicycle-riders-store.web.app/) to view it in the browser.
-
-The obvious answer is cycling boosts your mood in the same way all physical exercise makes you happy\
-“by influencing the release and uptake of chemicals in your brain that make you feel good” according to the Mental Health Foundation UK.
-
+A user will get a experience of multipage web app in a single page application. User's will get a smooth use of new era web app.
